@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css'
 import HolaMundo from "./components/HolaMundo"
 import Calama from "./components/Calama"
+import Ejercicio01 from "./components/Ejercicios/Ejercicio01"
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/ciudad",
     element: <Calama/>,
+  },
+  {
+    path:"/ejercicio01",
+    element:<Ejercicio01/>
   }
 ])
 
